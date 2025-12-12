@@ -11,7 +11,7 @@ function distanceFromHqInFeet(pickUpLocation){
 }
 console.log(distanceFromHqInFeet(30))
 
-function distanceTravelledInFeet(start, finish){
-  return (Math.abs(finish - start) * 264);
+function distanceTravelledInFeet(start, destination){
+  return (Math.abs(destination - start) * 264);
 }
 console.log(distanceTravelledInFeet(65, 60));
